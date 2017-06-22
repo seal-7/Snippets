@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+ll powerMod(ll x,ll y){
+    ll ans=1;
+    ll square=x;
+    if(y==0)
+        return 1;
+    while(y!=0){
+        if(y%2)
+            ans=ans*square;
+        square=(square*square)%MOD;
+        y=y/2;
+        if(ans>MOD)
+            ans=ans%MOD;
+    }
+    return ans;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>powmod</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+		<scope>source.c++</scope>
+</snippet>

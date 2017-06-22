@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/*
+                               ____    _____      _      _               _____ 
+                              / ___|  | ____|    / \    | |             |___  |
+                              \___ \  |  _|     / _ \   | |      _____     / / 
+                               ___) | | |___   / ___ \  | |___  |_____|   / /  
+                              |____/  |_____| /_/   \_\ |_____|          /_/   
+                                                                               */
+#include<bits/stdc++.h>
+#define PI 3.14159265
+using namespace std;
+	int main(){
+		$1
+	}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>incl</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
